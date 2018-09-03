@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <SearchBar @termChange="onTermChange" :/>
+        <SearchBar @termChange="onTermChange" />
         <VideoDetail :video="selectedVideo"/>
         <VideoList :videos = "videos" @videoSelect="onVideoSelect"/>
     </div>
